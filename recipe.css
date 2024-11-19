@@ -1,0 +1,121 @@
+/*
+#7f4a36   --h2 heading
+rgba(110,49,74,255) h3 heading
+*/
+
+@font-face {
+  font-family: outfit;
+  src: url("/assets/fonts/outfit/static/Outfit-Thin.ttf");
+  src: url("/assets/fonts/outfit/static/Outfit-SemiBold.ttf");
+  src: url("/assets/fonts/outfit/static/Outfit-Regular.ttf");
+  src: url("/assets/fonts/outfit/static/Outfit-Medium.ttf");
+  src: url("/assets/fonts/outfit/static/Outfit-Light.ttf");
+  src: url("/assets/fonts/outfit/static/Outfit-ExtraLight.ttf");
+  src: url("/assets/fonts/outfit/static/Outfit-Bold.ttf");
+  src: url("/assets/fonts/outfit/static/Outfit-Black.ttf");
+  font-family: "young-serif";
+  src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf");
+  font-weight: 200;
+}
+body {
+  font-family: Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  /* padding: 100px 150px; */
+  background-color: #f3e5d8;
+  /* width: 100vw; */
+  height: 100vh;
+  line-height: 1.3rem;
+}
+h1 {
+  font-family: outfit;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 0;
+}
+.main__container {
+  width: 45vw;
+  height: auto;
+  background-color: #fff;
+  place-content: center;
+  padding: 2rem;
+  margin: 100px auto 100px auto;
+  border-radius: 1rem;
+}
+.main__container img {
+  width: inherit;
+  border-radius: 1rem;
+  margin-bottom: 20px;
+}
+
+.preparation__container {
+  background-color: #f3e5d8;
+  /* padding: inherit; */
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.header__2 {
+  font-family: outfit, serif;
+}
+
+.c__brown {
+  color: #864836;
+}
+
+.header__3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: outfit;
+}
+ul,
+ol {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-top: 10px;
+}
+
+li::marker {
+  margin-right: 20px;
+  color: #864836;
+}
+.bold {
+  font-weight: 700;
+}
+/* .instruction__container {
+  border-bottom: 1px solid #b6b6b6;
+  margin-bottom: 20px;
+} */
+
+ol {
+  margin-bottom: 20px;
+}
+table {
+  margin: 20px 0;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 6px;
+  border-bottom: 1px solid #b6b6b6;
+}
+
+@media only screen and (max-width: 768px) {
+  .main__container {
+    width: 100%; /* Full width on mobile */
+    padding: 0; /* Remove padding for a cleaner look */
+    margin: 0; /* Center alignment */
+  }
+  .container__container {
+    margin: 0;
+    padding: 1.5rem;
+  }
+  .main__container img {
+    width: 100%; /* Make image responsive */
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+}
